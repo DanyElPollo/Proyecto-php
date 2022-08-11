@@ -1,0 +1,44 @@
+/*FUENTES*/
+@font-face {/*===== SE ESCRIBE FONT-FACE PARA QUE SE UTILICE UNA FUENTE ESTERNA =====*/
+  font-family: "fajala";/*Este es el nombre que le agregamos a nuestra fuente*/
+  src: url(../fonts/fuente.ttf) format("truetype");/*Aqui indicamos donde esta la fuente*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*===== GENERALES =====*/
+
+/*===== Limpiamos todos los margin y pading =====*/
+* { /*El selector * indica que se seleccionen todos los elementos de la pagina*/
+  margin: 0px;/*Desactivamo los margenes*/
+  padding: 0px;/*Desactivamo los Padding*/
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+/*Esto es una clases*/
+.clearfix{/*Esto es para limpiar los flotados para evitar que los elementos se suban*/
+  clear:both;
+  float: none;
+}
+
+body {
+  background: url(../img/cubes.png) #f4f4f4;/*Agregamos la foto de fondo*/
+}
+
+/*Estilos para la cabecera*/
+#cabecera{/*Se utiliza la almohadilla # más el id del elemento para señalar que el estilo sera
+  utilizado para eso*/
+  width: 100%/*1250px*/;/*podemos cambiarle el ancho y colocarlo como nosotros deseemos*/
+  height: auto;
+  background: transparent;
+  margin: 0px auto;
+  border: 1px solid black;
+}
+
+#logo{
+  float: left;  
+  width: 600px;
+  height: 100px;
+}
+
